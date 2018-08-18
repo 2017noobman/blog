@@ -308,8 +308,17 @@ i.large {
   li {
     display: inline-block;
   }
+  .content {
+    a {
+      font-size: 1.2rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $turquoise;
+    }
+  }
   a {
-    font-size: 1.2rem;
     color: #fff;
     text-decoration: none;
   }

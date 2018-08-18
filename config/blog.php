@@ -36,8 +36,8 @@ return [
 
     // Article Page
     'article' => [
-        'title'       => 'Nothing is impossible.',
-        'description' => 'https://pigjian.com',
+        'title'       => env('ARTICLE_TITLE','我不知道将去何方，但我已在路上。'),
+        'description' => 'https://blog.noobman.com',
         'number'      => 15,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
@@ -52,6 +52,7 @@ return [
 
     // Footer
     'footer' => [
+        /*
         'github' => [
             'open' => true,
             'url'  => 'https://github.com/jcc',
@@ -60,9 +61,10 @@ return [
             'open' => true,
             'url'  => 'https://twitter.com/pigjian'
         ],
-        'meta' => '© PJ Blog 2016. Powered By Jiajian Chan',
+        */
+        'meta' => '© NoobMan Blog 2018. Powered By Jiajian Chan <a href="http://www.miitbeian.gov.cn/">京ICP备17015150号-1</a></span>',
     ],
 
-    'license' => 'Powered By Jiajian Chan.<br/>This article is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.',
+    'license' => 'Powered By Noob Man.<br/>版权声明：<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.zh">署名-非商业性使用 4.0 国际 (CC BY-NC 4.0)</a>',
 
 ];
