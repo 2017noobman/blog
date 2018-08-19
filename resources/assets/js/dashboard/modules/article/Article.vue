@@ -62,7 +62,7 @@ export default {
             }
           })
       } else if (action == 'view-item') {
-        window.open('/' + data.slug, '_blank');
+        window.open('/article/' + data.slug, '_blank');
       }
     }
   }
