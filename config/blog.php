@@ -16,8 +16,8 @@ return [
 
     // Meta
     'meta' => [
-        'keywords' => 'PJ Blog,blog,pigjian,laravel,vuejs',
-        'description' => 'Nothing is impossible in PJ Blog'
+        'keywords' => 'NoobMan Blog,blog,noobman',
+        'description' => '我不知道将去何方，但我已在路上。'
     ],
 
     // Social Share
